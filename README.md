@@ -1,4 +1,3 @@
-[![Packagist](https://img.shields.io/packagist/dt/yiioverflow/yii2-file-kit.svg)]()
 [![Dependency Status](https://www.versioneye.com/php/yiioverflow:yii2-file-kit/badge.svg)](https://www.versioneye.com/php/yiioverflow:yii2-file-kit/2.0.0)
 
 This kit is designed to automate routine processes of uploading files, their saving and storage.
@@ -17,7 +16,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require yiioverflow/yii2-file-kit "*"
+composer require yiioverflow/yii2-file-kit  "@dev"
 
 ```
 
