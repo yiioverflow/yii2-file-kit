@@ -3,7 +3,7 @@ namespace yiioverflow\filekit;
 
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\helpers\FileHelper;
 use yii\web\UploadedFile;
 
@@ -12,7 +12,7 @@ use yii\web\UploadedFile;
  * @package yiioverflow\filekit
  * @author Roopan valiya veetil <yiioverflow@gmail.com>
  */
-class File extends Object
+class File extends BaseObject
 {
     /**
      * @var
